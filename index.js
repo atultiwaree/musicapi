@@ -79,6 +79,6 @@ app.use(morgan("tiny"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.get("/musiclist", (req, res) => res.status(200).json({ status: "Working fine!", data: { fuck: track } }));
+app.get("/musiclist", (req, res) => res.status(200).json({ data: track }));
 
 server.listen(PORT, (err) => (!err ? console.log(`✔ Node Listening to http://localhost:${PORT}`) : console.log("There was some error ", err.message)));
