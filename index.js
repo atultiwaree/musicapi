@@ -73,6 +73,20 @@ const track = [
     title: "WOW - Neffex",
     artwork: "https://shridaan.com/music/WOW.jpg",
   },
+  
+   {
+    "id": 10,
+    "url": "https://shridaan.com/music/Damm Girl.mp3",
+    "title": "Damm Girl - Neffex",
+    "artwork": "https://shridaan.com/music/Damm Girl.png"
+  },
+  
+    {
+    "id": 11,
+    "url": "https://shridaan.com/music/NEFFEX - Get Out My Way.mp3",
+    "title": "Get Out My Way - Neffex",
+    "artwork": "https://shridaan.com/music/NEFFEX - Get Out My Way.png"
+   }
 ];
 
 app.use(morgan("tiny"));
