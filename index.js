@@ -91,7 +91,7 @@ const track = [
     {
     "id": 12,
     "url": "https://shridaan.com/music/Rumors.mp3",
-    "title": "Get Out My Way - Neffex",
+    "title": "Rumors - Neffex",
     "artwork": "https://shridaan.com/music/Rumors.jpg"
    }
 ];
