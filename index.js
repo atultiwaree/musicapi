@@ -86,6 +86,13 @@ const track = [
     "url": "https://shridaan.com/music/NEFFEX - Get Out My Way.mp3",
     "title": "Get Out My Way - Neffex",
     "artwork": "https://shridaan.com/music/NEFFEX - Get Out My Way.png"
+   },
+  
+    {
+    "id": 11,
+    "url": "https://shridaan.com/music/Rumors.mp3",
+    "title": "Get Out My Way - Neffex",
+    "artwork": "https://shridaan.com/music/Rumors.jpg"
    }
 ];
 
