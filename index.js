@@ -117,17 +117,43 @@ const track = [
   },
 
   {
-    "id": 16,
-    "url": "https://shridaan.com/music/Rumors.mp3",
-    "title": "Rumors",
-    "artwork": "https://shridaan.com/music/Rumors.jpg"
-   }
+    id: 16,
+    url: "https://shridaan.com/music/Rumors.mp3",
+    title: "Rumors",
+    artwork: "https://shridaan.com/music/Rumors.jpg",
+  },
+  {
+    id: 17,
+    url: "https://shridaan.com/music/Cold.mp3",
+    title: "Cold",
+    artwork: "https://shridaan.com/music/Cold.jpg",
+  },
+  {
+    id: 18,
+    url: "https://shridaan.com/music/Grateful.mp3",
+    title: "Grateful",
+    artwork: "https://shridaan.com/music/Grateful.jpg",
+  },
+  {
+    id: 19,
+    url: "https://shridaan.com/music/Pro.mp3",
+    title: "Pro",
+    artwork: "https://shridaan.com/music/Pro.jpg",
+  },
+  {
+    id: 20,
+    url: "https://shridaan.com/music/Unstoppable.mp3",
+    title: "Unstoppable",
+    artwork: "https://shridaan.com/music/Unstoppable.jpg",
+  },
 ];
+
 
 app.use(morgan("tiny"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+app.get("/", (req, res) => res.status(200).json({ success : true, message : "Working fine!" }));
 app.get("/musiclist", (req, res) => res.status(200).json({ data: track }));
 
 server.listen(PORT, (err) => (!err ? console.log(`✔ Node Listening to http://localhost:${PORT}`) : console.log("There was some error ", err.message)));
