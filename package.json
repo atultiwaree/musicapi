@@ -1,12 +1,32 @@
 {
-  name: "msicPlayerBackend",
-  version: "0.1.0",
-  private: true,
-  dependencies: {
-    dotenv: "^16.0.3",
-    express: "^4.18.2",
-    morgan: "^1.10.0",
-    nodemon: "^2.0.22",
-    cors: "^2.8.5",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
   },
-};
+  "name": "musicapi",
+  "description": "��#\u0000 \u0000m\u0000u\u0000s\u0000i\u0000c\u0000a\u0000p\u0000i\u0000\r\u0000 \u0000",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atultiwaree/musicapi.git"
+  },
+  "keywords": [
+    "music",
+    "neffex",
+    "list",
+    "api"
+  ],
+  "author": "Atul Tiwaree",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atultiwaree/musicapi/issues"
+  },
+  "homepage": "https://github.com/atultiwaree/musicapi#readme"
+}
